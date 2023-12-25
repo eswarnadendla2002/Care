@@ -1,0 +1,214 @@
+import React from "react";
+
+const TransFerPatient = () => {
+  return (
+    <>
+      <div class="sidebar-menu">
+        <ul>
+          <li class="menu-item-current ">
+            <a
+              href="/patients/catalog/transfemoral-patient/introduction"
+              style={{ textAlign: "left" }}
+            >
+              Introduction
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/commonly-used-terminology">
+              Commonly Used Terminology
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/commonly-used-acronyms2222">
+              Commonly Used Acronyms
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/basic-anatomy222">
+              Basic Anatomy
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/statistics22">
+              Statistics
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/healing-rates">
+              Healing Rates
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/meeting-your-prosthetist22">
+              Meeting your Prosthetist
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/post-operative-care22">
+              Post Operative Care
+            </a>
+            <ul>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/ipop-prosthesis">
+                  IPOP Prosthesis
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/shrinkers">
+                  Shrinkers
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/desensitization">
+                  Desensitization
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/positioning">
+                  Positioning
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/phantom-limb-sensation">
+                  Phantom Limb Sensation
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/phantom-limb-pain">
+                  Phantom Limb Pain
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/post-operative-care22/exercise">
+                  Exercise
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis">
+              Temporary Prosthesis
+            </a>
+            <ul>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/prosthetic-process">
+                  Prosthetic Process
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/check-socket-fitting">
+                  Check Socket Fitting
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/temporary-prosthetic-socket-fitting">
+                  Temporary Prosthetic Socket Fitting
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/prosthetic-follow-up">
+                  Prosthetic Follow Up
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/sock-management">
+                  Sock Management
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/prosthetic-hygiene">
+                  Prosthetic Hygiene
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/temporary-prosthesis/physical-therapy">
+                  Physical Therapy
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/definitive-process">
+              Definitive Prosthesis
+            </a>
+            <ul>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/definitive-process/prosthetic-hygiene">
+                  Prosthetic Hygiene
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/definitive-process/exercise">
+                  Exercise
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/donning-doffing-the-prosthesis">
+              Donning &amp; Doffing
+            </a>
+            <ul>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/donning-doffing-the-prosthesis/pin-systems">
+                  PIN Systems
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/donning-doffing-the-prosthesis/suspension-sleeves-or-vas-systems">
+                  Suspension Sleeve Systems
+                </a>
+              </li>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/donning-doffing-the-prosthesis/seal-in-systems">
+                  Seal-in Systems
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/determining-the-proper-sock-fit">
+              Determining the Proper Sock Fit
+            </a>
+            <ul>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/determining-the-proper-sock-fit/sock-hygiene">
+                  Sock Hygiene
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/trouble-shooting">
+              Trouble Shooting
+            </a>
+            <ul>
+              <li class="">
+                <a href="/patients/catalog/transfemoral-patient/trouble-shooting/common-problems">
+                  Common Problems
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/assistive-devices">
+              Assistive Devices
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/amputee-athletic-resources2222">
+              Amputee Athletic Resources
+            </a>
+          </li>
+          <li class="">
+            <a href="/patients/catalog/transfemoral-patient/references">
+              References
+            </a>
+          </li>
+        </ul>
+      </div>
+    </>
+  );
+};
+
+export default TransFerPatient;

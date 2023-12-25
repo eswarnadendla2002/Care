@@ -1,0 +1,114 @@
+a {
+    color: #546269;
+}
+
+footer .social a:hover {
+    color: #5699b5;
+}
+
+footer,
+body {
+    border-color: #5699b5;
+}
+
+nav>ul>li:hover>a,
+nav>ul>li.sfHover>a {
+    background: #d9d9d9;
+    color: #000000;
+    border-color: #d9d9d9;
+}
+
+nav>ul>li.sf-breadcrumb>a {
+    background: #546269;
+    border-color: #546269;
+    color: white;
+}
+
+nav>ul ul li.sf-breadcrumb>a {
+    border-color: #546269;
+}
+
+.gallery-filter button:hover {
+    background: #d9d9d9;
+    color: #000000;
+    border-color: #d9d9d9;
+}
+
+.gallery-filter button.mixitup-control-active {
+    background: #546269;
+    border-color: #546269;
+    color: white;
+}
+
+.banner {
+    background: #5699b5;
+    border-color: #5699b5;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #5699b5;
+}
+
+.section-gallery .cycle-pager span:hover,
+.section-gallery .cycle-pager span.cycle-pager-active {
+    background: #546269;
+    color: #546269;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #546269;
+    color: #546269;
+}
+
+body.home #main,
+body.home footer,
+body.home footer .social a {
+    background: #ffffff;
+    color: #222222;
+}
+
+body.home .section:nth-child(even),
+body.home .section.section-home {
+    background: #ffffff;
+}
+
+body.home .home-4-cols,
+body.home .home-cols {
+    color: #222222;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .menu-item-current:active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+  
