@@ -7,8 +7,11 @@ import HomeMain from "../pages/Home/homeMain";
 import CommonUsedTechnology from "../pages/Patient_careManual/Transfemoral_patient/common_used_technology";
 import Introduction from "../pages/Patient_careManual/Transtibial_patient/introduction";
 import FootFinder from "../pages/Patients/FootFinder/footfinder";
+import Inspirational_stories from "../pages/Patients/Inspirational/Inspirational_stories.js";
+import SocketFinder from "../pages/Patients/SocketFinder/SocketFinder.js";
 import CareManual from "../pages/Patients/care-manual";
 import KneeFinder from "../pages/Patients/kneefinder/knee_finder.js";
+import useful from "../pages/Patients/useful/useful-links.js";
 
 import AcceptedInsurancePlans from "../pages/Services/accepted-insurance-plans";
 import OurServices from "../pages/Services/our_services";
@@ -91,5 +94,17 @@ export const routes = [
   {
     path: "/patients/knee-finder",
     component: KneeFinder,
+  },
+  {
+    path: "/patients/socket-finder",
+    component: SocketFinder,
+  },
+  {
+    path: "/patients/inspirational-stories",
+    component: Inspirational_stories,
+  },
+  {
+    path: "/patients/useful-links",
+    component: useful,
   },
 ];
