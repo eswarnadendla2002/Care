@@ -70,9 +70,7 @@ const HomeSlide = () => {
                     limb technology.
                   </p>
                   <p>
-                    <a href="http://www.balancepo.com/about/about-our-practice">
-                      Read more
-                    </a>
+                    <a href="/about/about-our-practice">Read more</a>
                   </p>
                 </div>
                 <div class="col">
@@ -91,7 +89,7 @@ const HomeSlide = () => {
                     orthoses.
                   </p>
                   <p>
-                    <a href="http://www.balancepo.com/services">Read more</a>
+                    <a href="/services">Read more</a>
                   </p>
                 </div>
               </div>

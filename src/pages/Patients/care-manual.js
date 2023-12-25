@@ -6,6 +6,7 @@ const CareManual = () => {
   return (
     <div>
       <Home />
+      <br />
       <div class="clearfix"></div>
 
       <div id="main">
