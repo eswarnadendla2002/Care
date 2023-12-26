@@ -3,6 +3,7 @@ import "../../Styles/styles.css";
 import "../../Styles/styles-copy.css";
 import Home from "../Home/homeHeader";
 import Footer from "../Footer/footer";
+import image from "../../assests/images/logo2.png";
 const About = () => {
   return (
     <div>
@@ -29,10 +30,7 @@ const About = () => {
           <div class="page-header">
             <div class="container  ">
               <div class="">
-                <img
-                  src="https://www.balancepo.com/storage/New folder/Screen Shot 2015-07-07 at 10_39_44 AM.png"
-                  alt=""
-                />
+                <img src={image} alt="" />
               </div>
             </div>
           </div>

@@ -143,3 +143,8 @@ body.home .home-cols {
     background: #adceed;
   }
   
+  ul .sf-breadcumb{
+    width:640px;
+    height:82px;
+    z-index: 99;
+  }

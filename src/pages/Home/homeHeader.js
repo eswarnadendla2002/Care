@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../../Styles/styles.css";
 import "../../Styles/styles-copy.css";
-
+import image from "../../assests/images/logo2.png";
 const Home = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -29,10 +29,7 @@ const Home = () => {
         <header>
           <div className="container clearfix">
             <a id="logo" href="/">
-              <img
-                src="https://www.balancepo.com/storage/New folder/Screen Shot 2015-07-07 at 9_40_43 AM.png"
-                alt="Balance Prosthetics &amp; Orthotics, Inc. | Pennsylvania"
-              />
+              <img src={image} />
             </a>
             <nav>
               <ul>
@@ -334,7 +331,10 @@ const Home = () => {
                 <option value="/patients/inspirational-stories">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inspirational Stories
                 </option>
-                <option value="/patients/useful-links1">
+                <option
+                  value="/patients/useful-links
+                "
+                >
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Useful Links
                 </option>
                 <option value="/patients/glossary">
